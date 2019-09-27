@@ -274,10 +274,11 @@ a.navigation:link{
   
 .cv-flex-grid {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin: 0%;
 	
   }
-
+ 
   .cv-flex-text{
 	  margin: 0%;
 	  margin-left: 10%;
@@ -309,6 +310,40 @@ a.navigation:link{
 	width: 550px;
 	height: 350px;
   }
+
+  .intro {
+	animation: fadeIn 0.8s 0.4s ease forwards;
+	}
+
+	@keyframes revealRight {
+		0% {
+		  transform: scaleX(1);
+		}
+		100% {
+		  transform: scaleX(0);
+		}
+	  }
+	  
+	  @keyframes fadeIn {
+		0% {
+		  opacity: 0;
+		}
+		100% {
+		  opacity: 1;
+		}
+	  }
+	  
+	  @keyframes fadeInLeft {
+		0% {
+		  opacity: 0;
+		  transform: translateX(20%);
+		}
+		100% {
+		  opacity: 1;
+		  transform: translate(0);
+		}
+	  }
+	  
 
 /* Container */
 
@@ -2662,8 +2697,7 @@ a.navigation:link{
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1a1a1a;
-		background-attachment: scroll;						
-		background-image:  url("../../images/bg.png");
+		background-attachment: scroll;					
 		background-position: middle center;					
 		background-repeat: repeat;
 		background-size: auto;
@@ -3148,7 +3182,6 @@ a.navigation:link{
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
