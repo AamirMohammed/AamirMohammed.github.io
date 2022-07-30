@@ -1,285 +1,707 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 <head>
-	<title>Aamir Mohammed Game Programmer Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Aamir Mohammed Portfolio</title>
+    <meta name="description" content="Aamir Mohammed">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
 
-<body class="is-preload">
-
-	<!-- Header -->
-
-	<div id="headerfile"></div>
+<body id="top" class="ss-preload">
 
 
-	<!-- Main -->
-	<div id="main">
-
-		<!-- One -->
-		<section id="welcome">
-			<header class="major">
-				<h2>About me.</h2>
-			</header>
-			<p>Hi!<br><br>
-				I'm Aamir, an indie game developer
-				I like researching about games, game engines and spend most of the my time doing game development. </p>
-			<!-- <ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul> -->
-		</section>
-
-		<!-- Four -->
-		<section id="four" data-aos="fade-up">
-			<div class="flex-grid">
-				<div class="colhead">
-					<h3 class="icon solid fa-gamepad fa-lg"></h3>
-					<p>Over the years, I've worked on and shipped several titles</p>
-					<ul class="col">
-						<li>Secret Agent (Multiplayer VR Escape Room Game for Kidzania Dubai<b>(HTC Vive)</b>) </li>
-						<li>OceanVR (Underwater VR Experience for Dubai Aquarium <b>(HTC Vive)</b>) </li>
-						<li>CricketVR (VR Cricket game for various locations in India <b>(HTC Vive)</b>) </li>
-						<li>Strikezone (VR Baseball game for various locations in the US <b>(HTC Vive)</b>) </li>
-						<li>Qubit Chemistry (VR Education Game about learning Chemistry<b>(HTC Vive/Oculus Quest)</b>)
-						<li>VRMania (An Arcade Platform created to handle internal and external licensed games for the arcades<b>(HTC Vive)</b>)
-						</li>
-					</ul>
-				</div>
-
-				<div class="colhead">
-					<h3 class="icon solid fa-user fa-lg"></h3>
-					<p>i love game development and programming. Over the years i've honed my experience in the following
-					</p>
-					<ul class="navigation">
-						<li><b>LANGUAGES</b><br> C# </li>
-						<li><b>PROJECT MANAGEMENT TOOLS</b><br> Jira, Trello, Asana  </li>
-						<li><b>SOFTWARE</b><br> Rider, Visual Studio, Maya, Office Suite, XAMPP</li>
-						<li><b>ENGINES</b><br> Unity</li>
-						<li><b>Version Control</b><br> Git, Perforce</li>
-						<li><b>HARDWARE</b><br> Oculus Rift/Rift S/Go/Quest, HTC Vive/Vive Focus, Windows Mixed Reality
-						</li>
-					</ul>
-				</div>
-
-			</div>
-		</section>
-
-		<!-- Two -->
-		<section id="projects" data-aos="fade-up">
-			<h2>My Work</h2>
-			<div class="row">
-				<article class="col-6 col-12-xsmall">
-					<a href="VRMania.html" class="image fit thumb"><img height= "230"src="images/fulls/VRMania.png"
-						alt="" /></a>
-					<h3>VRMania</h3>
-					<p>A VR platform hub that allows users to launch games. Made for the arcade</p>
-				</article>
-				<article class="col-6 col-12-xsmall">
-					<a href="OceanVR.html" class="image fit thumb"><img height= "230" src="images/fulls/OceanVR.PNG" alt="" /></a>
-					<h3>OceanVR</h3>
-					<p>An underwater VR ocean experience</p>
-				</article>
-				<article class="col-6 col-12-xsmall">
-					<a href="CricketVR.html" class="image fit thumb"><img src="images/thumbs/cricket.jpg" alt="" /></a>
-					<h3>CricketVR </h3>
-					<p>An arcade style VR cricket game.</p>
-				</article>
-				<article class="col-6 col-12-xsmall">
-					<a href="NuatGamesLauncher.html" class="image fit thumb"><img src="images/nodejs.png"
-							alt="" /></a>
-					<h3>Nuat Games Launcher</h3>
-					<p>A Node.js application to launch games in the arcade using Ipad/android tablet.</p>
-				</article>
-			</div>
-			<ul class="actions">
-				<li><a href="Projects.html" class="button">Full Portfolio</a></li>
-			</ul>
-		</section>
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
 
 
-		<!-- Five -->
-		<section id="cv" data-aos="fade-up">
-			<header class="major">
-				<h2>Curriculum Vitae(CV)</h2>
-			</header>
-			<p> A brief summary of my professional work experience.</p>
-			<div class="cv-flex-grid" data-aos="fade-left">
-				<div>
-					<img src="images/High Ping Logo.jpg" alt="HighPing" width="150" height="200">
-				</div>
-				<div>
-					<p class="cv-flex-text">Game Programmer December 2020 - Present<br> <b>Titles</b></p>
-					<ul class="cv-flex-text">
-						<li>Undisclosed Project </li>
-					</ul>
-					<br>
-					<p class="cv-flex-text"> Worked on writing core systems and software architecture for the project along with implementing various game mechanics </p>
-					<br>
-					<p class="cv-flex-text"><b> Responsibilities Include </b> </p>
-					<ul class="cv-flex-text">
-						<li>Design & Development of core game systems</li>
-						<li>Writing Core Game Artchitecture</li>
-						<li>Implementation of game mechanics</li>
-						<li>Implementing in-game UI systems </li>
-						<li>Profiling and Optimization</li>
-						<li>Writing and maintaining engine plugins and external tools using C#</li>
-						<li>Creating technical documentation </li>
-						<li>Project Management using agile workflow</li>					
-					</ul>
-					<br>
-				</div>
-			</div>
-			<div class="cv-flex-grid" data-aos="fade-left">
-				<div>
-					<img src="images/Nuat Logo.png" alt="Nuat" width="150" height="200">
-				</div>
-				<div>
-					<p class="cv-flex-text">Lead Game Developer January 2018 - July 2020<br> <b>Titles</b></p>
-					<ul class="cv-flex-text">
-						<li>VRMania </li>
-						<li>Secret Agent </li>
-						<li>OceanVR </li>
-						<li>CricketVR </li>
-						<li>Strikezone</li>
-						<li>Qubit Chemistry </li>
-						<li>Nuat Games Launcher </li>
-					</ul>
-					<br>
-					<p class="cv-flex-text"> As the lead developer , i work with multidisciplinary team of programmers,
-						artists, designers, audio engineers to take the project through its entire game development life
-						cycle (GDLC). I strive to write readable, scalable and maintainable code in C# to meet deadlines
-						on time </p>
-					<br>
-					<p class="cv-flex-text"><b> Responsibilities Include </b> </p>
-					<ul class="cv-flex-text">
-						<li>Development of complete software from its planning to release phase</li>
-						<li>Game Design</li>
-						<li>Creating design documents (GDD)</li>
-						<li>Project Management using agile workflow</li>
-						<li>Implementing game mechanics and core systems(such as microcontrollers,analytics etc) using
-							C# in Unity</li>
-						<li>Implementing in game UI and related gameplay systems </li>
-						<li>Completing additional gameplay features and core system tasks</li>
-						<lI>Writing core system for the arcade machines</lI>
-						<li>Writing and maintaining engine plugins and external tools using C#.</li>
-					</ul>
-					<br>
-				</div>
-			</div>
-			<div class="cv-flex-grid" data-aos="fade-left">
-				<div>
-					<img src="images/coded minds logo.png" alt="Coded Minds" width="150" height="150">
-				</div>
-				<div>
-					<p class="cv-flex-text">Instructor September 2017 - January 2018 <br> <b>Titles</b></p>
-					<ul class="cv-flex-text">
-						<li>Intro to Game Development</li>
-						<li>3D Modelling and Animation</li>
-					</ul>
-					<br>
-					<p class="cv-flex-text"> My role as an instructor was to prepare and teach the coursework that was
-						appropriate in the given course time.
-						I worked with students of different skills and age groups and had to developed creative ways of
-						engaging and involving students to help them learn and understand</p>
-					<br>
-					<p class="cv-flex-text"><b> Responsibilities Include </b> </p>
-					<ul class="cv-flex-text">
-						<li>Creating a syllabus and lesson plan for the course.</li>
-						<li>Teaching students </li>
-						<li>Tracking student's progress</li>
-					</ul>
-					<br>
-				</div>
-			</div>
-		</section>
-		<section id="education" data-aos="fade-up">
-			<header class="major">
-				<h2>Education</h2>
-			</header>
-			<p> Summary of my education.</p>
-			<div class="education-flex-grid" data-aos="fade-left">
-				<!-- <div class="education-flex-text">
-					<img src="images/UOWD_logo.png" alt="Nuat" width="250" height="150">
-				</div> -->
-				<div class="education-flex-text">
-					<p style="margin: 0%"><b>Bachelor’s of Computer Science (Majors in Multimedia and Game
-							Development) University of Wollongong Dubai, From 2013 to 2018</b></p>
-					<ul><b>Achievements</b>
-						<li>Graduated as the top graduate with distinction</li>
-				</div>
-			</div>
-			<br>
-			<div class="education-flex-grid" data-aos="fade-left">
-				<!-- <div class="education-flex-text">
-					<img src="images/IISD.jpg" alt="IISD" width="250" height="150">
-				</div> -->
-				<div class="education-flex-text">
-						<p style="margin: 0%"> <b>International Indian School Dammam Saudi Arabia, From 2003 to 2013</b>
-					</p>
-						<ul><b>Achievements</b>
-						<li>Top programming student in the school scoring 95/100 in grade 12th exam.</li>
-				</div>
-			</div>
-		</section>
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+                    <li><a class="smoothscroll" href="#contact">Say Hello!</a></li>
+                </ul>
+            </nav>
+        </div> <!-- end row -->
+        
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
+        </a>
+    </header> <!-- end s-header -->
 
-		<!-- Three -->
-		<section id="contact" data-aos="fade-up">
-			<h2>Get In Touch</h2>
-			<!-- <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p> -->
-			<!-- <div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div> -->
-			<div class="col-4 col-12-small">
-				<ul class="labeled-icons">
-					<!-- <li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										1234 Somewhere Rd.<br />
-										Nashville, TN 00000<br />
-										United States
-									</li> -->
-					<li>
-						<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-						+971526529454
-					</li>
-					<li>
-						<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-						<a href="#">aamir.gamedev@gmail.com</a>
-					</li>
-				</ul>
-			</div>
-	</div>
-	</section>
-	<!-- Footer -->
-	<footer id="footer">
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.poptrox.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script>
-			$(function () {
-				$("#headerfile").load("header.html");
-				$("#footer").load("footer.html");
-			});
-		</script>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-			AOS.init();
-		</script>
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+
+        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+
+        <div class="row s-hero__content">
+            <div class="column">
+
+                <div class="s-hero__content-about">
+
+                    <h1>Hello!</h1>
+
+                    <h3>
+                        I'm Aamir, a <span> unity game developer</span>, passionate about games, game development
+                        and game architecture.
+                    </h3>
+
+                    <div class="s-hero__content-social">
+                        <a href="https://github.com/AamirMohammed"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/aamir-mohammed"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+
+                </div> <!-- end s-hero__content-about -->
+
+            </div>
+        </div> <!-- s-hero__content -->
+
+        <div class="s-hero__scroll">
+            <a href="#portfolio" class="s-hero__scroll-link smoothscroll">
+                <span class="scroll-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </div> <!-- s-hero__scroll -->
+
+    </section> <!-- end s-hero -->
+
+
+
+
+    <!--
+        <!- - resume
+        ================================================== - ->
+    <section id="resume" class="s-resume target-section">
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Career</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">High Ping Entertainment</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Game Programmer</span>
+                            <span class="resume-block__header-date">
+                                December 2020 - Present
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    <h6>Undisclosed Project </h6>
+                    <p> Worked on writing core systems and game architecture for the project along with implementing various gameplay mechanics </p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Design & Development of core game systems</li>
+                        <li>Writing Core Game Artchitecture</li>
+                        <li>Implementation of game mechanics</li>
+                        <li>Implementing in-game UI systems </li>
+                        <li>Profiling and Optimization</li>
+                        <li>Writing and maintaining engine plugins and external tools using C#</li>
+                        <li>Creating technical documentation </li>
+                        <li>Project Management using agile workflow</li>
+                    </ul>
+                    </p>
+
+                </div> <!- - end resume-block - ->
+
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <h4 class="h3">NuatVR</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Lead Game Developer</span>
+                            <span class="resume-block__header-date">
+                                January 2018 - December 2020
+                            </span>
+                        </p>
+                    </div>
+
+                    <h6 class="titles">VRMania </h6>
+                    <h6 class="titles">Secret Agent </h6>
+                    <h6 class="titles">OceanVR </h6>
+                    <h6 class="titles">CricketVR </h6>
+                    <h6 class="titles">Strikezone</h6>
+                    <h6 class="titles">Qubit Chemistry </h6>
+                    <h6 class="titles">Nuat Games Launcher </h6>
+                    <p><br>
+                        As the lead developer , i work with multidisciplinary team of programmers,
+                        artists, designers, audio engineers to take the project through its entire game development life
+                        cycle (GDLC). I strive to write readable, scalable and maintainable code in C# to meet deadlines
+                        on time
+                    </p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Development of complete software from its planning to release phase</li>
+                        <li>Game Design</li>
+                        <li>Creating design documents (GDD)</li>
+                        <li>Project Management using agile workflow</li>
+                        <li>Implementing game mechanics and core systems(such as microcontrollers,analytics etc) using
+                            C# in Unity</li>
+                        <li>Implementing in game UI and related gameplay systems </li>
+                        <li>Completing additional gameplay features and core system tasks</li>
+                        <lI>Writing core system for the arcade machines</lI>
+                        <li>Writing and maintaining engine plugins and external tools using C#.</li>
+                    </ul>
+                    </p>
+
+                </div> <!- - end resume-block - ->
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Coded Minds</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Instructor</span>
+                            <span class="resume-block__header-date">
+                                September 2017 - January 2018
+                            </span>
+                        </p>
+                    </div>
+                    <h6 class="titles">Intro to Game Development </h6>
+                    <h6 class="titles">3D Modeling and Animation </h6>
+                    <p><br>
+                        My role as an instructor was to prepare and teach the coursework that was
+                        appropriate in the given course time.
+                        I worked with students of different skills and age groups and had to developed creative ways of
+                        engaging and involving students to help them learn and understand.
+                    </p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Creating a syllabus and lesson plan for the course.</li>
+                        <li>Teaching students </li>
+                        <li>Tracking student's progress</li>
+                    </ul>
+                    </p>
+
+                </div> <!- - end resume-block - ->
+            </div>
+        </div> <!- - s-resume__section - ->
+
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Education</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">University of Wollongong</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Bachelor’s of Computer Science (Majors in Multimedia and Game
+							Development) summa cum laude</span>
+                            <span class="resume-block__header-date">
+                                2013 to 2018
+                            </span>
+                        </p>
+                    </div>
+                </div> <!- - end resume-block - ->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">IISD</h4>
+                        <p class="resume-block__header-meta">
+                            <span>High School</span>
+                            <span class="resume-block__header-date">
+                                2003-2013
+                            </span>
+                        </p>
+                    </div>
+                </div> <!- - end resume-block - ->
+            </div>
+        </div> <!- - s-resume__section -->
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h3>A Few Of My Latest Creations</h3>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+            <h3 class="section-header-allcaps"  >Virtual Reality</h3>
+        </div>
+            <div class="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+                <div class="column folio-item">
+                    <a href="#vrmania" class="folio-item__thumb">
+                        <img src="images/portfolio/VR/VRMania.png" alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+
+                <div class="column folio-item">
+                    <a href="#nuatgameslauncher" class="folio-item__thumb">
+                        <img src=images/portfolio/VR/nodejs.png alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+
+                <div class="column folio-item">
+                    <a href="#strikezone" class="folio-item__thumb">
+                        <img src=images/portfolio/VR/baseball.png alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+
+                <div class="column folio-item">
+                    <a href="#cricketvr" class="folio-item__thumb">
+                        <img src="images/portfolio/VR/cricket.png" alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+                <div class="column folio-item">
+                    <a href="#secretagent" class="folio-item__thumb">
+                        <img src=images/portfolio/VR/secretagent.png alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+                <div class="column folio-item">
+                    <a href="#chemistry" class="folio-item__thumb">
+                        <img src=images/portfolio/VR/Chemistry.png alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+                <div class="column folio-item">
+                    <a href="#oceanvr" class="folio-item__thumb">
+                        <img src=images/portfolio/VR/OceanVR.png alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+            </div> <!-- end folio-list --><br><br>
+
+        <div class="row">
+            <h3 class="section-header-allcaps"  >Personal Work</h3>
+        </div>
+        <div class="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+            <div class="column folio-item centertext">
+                    <iframe src="https://giphy.com/embed/WJo8idaSdG325BiiMf" frameBorder="0"></iframe>
+                <p>Overwatch Health UI</p>
+            </div> <!-- end folio-item -->
+            <div class="column folio-item centertext">
+                <iframe src="https://giphy.com/embed/YkAVsfIBiyBewqgmEc" frameBorder="0"></iframe>
+                <p>Inventory System</p>
+            </div> <!-- end folio-item -->
+            <div class="column folio-item centertext">
+                <iframe src="https://giphy.com/embed/jtd1pOPOJqteLRGHPl" frameBorder="0"></iframe>
+                <p>Tool for Room Stitching/ Room Streaming</p>
+            </div> <!-- end folio-item -->
+            <div class="column folio-item centertext">
+                <iframe src="https://giphy.com/embed/hWtSXVFOoMUwRVx17C" frameBorder="0"></iframe>
+                <p>Tool for Room-Bounds generation</p>
+            </div> <!-- end folio-item -->
+        </div> <!-- end folio-list --><br><br>
+
+
+        <div class="row">
+            <h3 class="section-header-allcaps"  >Game Jams</h3>
+        </div>
+            <div class="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+                <div class="column folio-item">
+                    <a href="#captsaicin" class="folio-item__thumb">
+                        <img src="images/portfolio/GameJams/CaptSaicin.PNG" alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+                <div class="column folio-item">
+                    <a href="#showstopper" class="folio-item__thumb">
+                        <img src="images/portfolio/GameJams/ShowStoppers.PNG" alt="">
+                    </a>
+                </div><div class="column folio-item">
+                <a href="#wmb" class="folio-item__thumb">
+                    <img src="images/portfolio/GameJams/WMB.png" alt="">
+                </a>
+            </div>
+                <div class="column folio-item">
+                    <a href="#tgib" class="folio-item__thumb">
+                        <img src="images/portfolio/GameJams/ThisGameIsBroken.PNG" alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+                <div class="column folio-item">
+                    <a href="#neonfever" class="folio-item__thumb">
+                        <img src="images/portfolio/GameJams/neonfever.png" alt="">
+                    </a>
+                </div> <!-- end folio-item -->
+            </div> <!-- end folio-list -->
+
+
+
+        <!-- Modal Templates Popup
+          =========================================================== -->
+        <div id="vrmania" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/VR/VRMania.png" height="300" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>VR Mania</h5>
+                    <p> A platform hub for the arcade system to handle both internally made and externally licensed games. Created for the HTC Vive</p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Development of a complete software from its planning to release phase</li>
+                        <li>Architecturing the platform using various design patterns</li>
+                        <li>Project Management</li>
+                        <li>Games Launcher for launching the different games from inside the hub</li>
+                        <li>Writing logic to communicate between the platform and different games for modifying settings and fetching score.</li>
+                        <li>Writing a payment system to handle credits inserted by the customer</li>
+                        <li>Writing a ticket dispensing system (redemption) to dispense tickets</li>
+                        <li>Creating Installers for different games</li>
+                        <li>Implementing in game UI and related systems </li>
+                        <li>Completing additional features and tasks</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div> <!-- end modal -->
+        <div id="cricketvr" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/VR/cricket.png" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>CricketVR</h5>
+                    <p>An arcade style VR cricket game. <i> Created for the HTC Vive</i></p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Development of a complete software from its planning to release phase</li>
+                        <li>Game Design</li>
+                        <li>Creating design documents (GDD)</li>
+                        <li>Project Management</li>
+                        <li>Implementing game mechanics and core systems.</li>
+                        <li>Implementing in game UI (Diagetic and Spatial) </li>
+                        <li>Writing localization system thats supports different languages with different commentary </li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="nuatgameslauncher" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/VR/NodeJs.png" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Nuat Games Launcher</h5>
+                    <p>A Node.js application to launch games in the arcade using IPad/Android tablet.</p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Development of the backend using Node.js</li>
+                        <li>Writing core systems such as payment, analytics, emailing and ticket dispensing</li>
+                        <li>Writing code for communicating with the arduino interface for payment.</li>
+                        <li>Project Management</li>
+                        <li>Completing additional launcher features and core system tasks</li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="strikezone" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/VR/baseball.png" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>StrikeZone</h5>
+                    <p>A homerun derby style game VR baseball game.<i> Created for the HTC Vive</i></p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Development of the game from its planning to release phase</li>
+                        <li>Game Design</li>
+                        <li>Creating design documents (GDD)</li>
+                        <li>Project Management</li>
+                        <li>Responsible for co-implementing the core architecture of the project</li>
+                        <li>Implementing in game UI elements (Diagetic and Spatial UI)</li>
+                        <li>Completing additional gameplay features and core system tasks</li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="chemistry" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/VR/Chemistry.png" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Chemistry</h5>
+                    <p>A VR education game about learning chemistry. <i> Created for the HTC Vive and Oculus Quest</i></p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Development of a complete software from its planning to release phase</li>
+                        <li>Game Design</li>
+                        <li>Creating design documents (GDD)</li>
+                        <li>Project Management</li>
+                        <li>Implementing game mechanics and core systems</li>
+                        <li>Implementing in game UI and related gameplay systems </li>
+                        <li>Completing additional gameplay features and core system tasks</li>
+                        <li>Architecturing the game through event based architecture using scriptable objects</li>
+                        <li>Porting the game from HTC Vive to the Oculus Quest</li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="oceanvr" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/VR/OceanVR.png" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Chemistry</h5>
+                    <p> An underwater VR ocean experience.<i> Created for the HTC Vive</i></p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Development of a complete software from its planning to release phase</li>
+                        <li>Game Design</li>
+                        <li>Creating design documents (GDD)</li>
+                        <li>Project Management</li>
+                        <li>Implementing game mechanics and core systems(such as player interaction,movement etc.) using
+                            C# in Unity</li>
+                        <li>Implementing in game UI elements (Diagetic and Spatial UI)</li>
+                        <li>Completing additional gameplay features and core system tasks</li>
+                        <li>Writing and maintaining engine plugins and external tools using C#.</li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="secretagent" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/VR/secretagent.png" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Secret Agent</h5>
+                    <p>A multiplayer VR Escape Room. <i> Created for the HTC Vive</i>	</p>
+                    <p><b> Responsibilities Include </b> </p>
+                    <ul>
+                        <li>Development of the complete software from its planning to release phase</li>
+                        <li>Game Design</li>
+                        <li>Creating design documents (GDD)</li>
+                        <li>Project Management</li>
+                        <li>Implementing game mechanics and core systems using C# in Unity</li>
+                        <li>Implementing in game UI and related gameplay systems </li>
+                        <li>Implementing Server/Client logic using Unet.</li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="captsaicin" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/GameJams/CaptSaicin.png" alt="" />
+                <div class="modal-popup__desc">
+                    <h5>CaptSaicin</h5>
+                    <p>BulletHell SHMUP game made for the Replit Game Jam 2022.</p>
+                    <h6><a href="https://replit.com/@DarkEmerald/Captain-Saicin-And-Karton-The-Legendairy?c=326526" target="_blank"><u>Playable Demo</u></a></h6>
+                    <a href="https://www.youtube.com/watch?v=M9vD0_WGAtw&ab_channel=EliFortune" class="modal-popup__details">Youtube</a>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="showstopper" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/GameJams/ShowStoppers.png" alt="" />
+                <div class="modal-popup__desc">
+                    <h5>ShowStoppers</h5>
+                    <p> ShowStoppers is a paper's please style game about letting the right people enter the concert.</p>
+                    <a href="https://www.youtube.com/watch?v=506npbt4Hj0&a" class="modal-popup__details">Youtube</a>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="wmb" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/GameJams/WMB.png" alt="" />
+                <div class="modal-popup__desc">
+                    <h5>Where's my bread</h5>
+                    <p> A Rhythm based Shooter where you shoot with the music beat.</p>
+                    <a href="https://drive.google.com/file/d/1tpYGiutyLlKHmyrAHItBhfuc_zVw03nh/view?usp=sharing" class="modal-popup__details">Video</a>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="tgib" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/GameJams/ThisGameIsBroken.png" alt="" />
+                <div class="modal-popup__desc">
+                    <h5>This Game is Broken</h5>
+                    <p> Global Game Jam(2020) Theme - Repair.</p>
+                    <a href="https://www.youtube.com/watch?v=ixvgvMOFfpU" class="modal-popup__details">Youtube</a>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="neonfever" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/GameJams/neonfever.png" alt="" />
+                <div class="modal-popup__desc">
+                    <h5>Neon Fever</h5>
+                    <p>Global Game Jam(2018) Theme - Transmission </p>
+                    <a href="https://globalgamejam.org/2018/games/neon-fever-game" class="modal-popup__details">Submission</a>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+        <div id="owhealthui" hidden>
+            <div class="modal-popup">
+                <div class="container"><iframe class="responsive-iframe" src="https://giphy.com/embed/RPpYFE2zzAMgVsfawb" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed"></iframe></div>
+                <div class="modal-popup__desc">
+                    <h5>Overwatch Health UI</h5>
+                    <p>Recreating Overwatch health UI in unity.</p>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+    </section> <!-- end s-portfolio -->
+
+    <div class="s-resume__section"></div>
+
+    <div class="row s-resume__section">
+        <div class="column large-3 tab-12">
+            <h3 class="section-header-allcaps">Skills</h3>
+        </div>
+        <div class="column large-9 tab-12">
+            <div class="resume-block">
+
+                <ul class="skill-bars-fat">
+                    <li><strong>Languages</strong><p>C#</p></li>
+                    <li><strong>ENGINES</strong><p>Unity</p></li>
+                    <li><strong>SOFTWARE</strong><p>Jetbrains Rider, Visual Studio, Office Suite, XAMPP</p></li>
+                    <li><strong>Version Control</strong><p>Git, Perforce</p></li>
+                    <li><strong>HARDWARE</strong><p>Windows, Android, Oculus Rift/Rift S/Go/Quest, HTC Vive/Vive Focus, Windows Mixed Reality</p></li>
+                    <li><strong>PROJECT MANAGEMENT TOOLS</strong><p>Jira, Trello, Milanote, Asana </p></li>
+                </ul>
+
+            </div> <!-- end resume-block -->
+
+        </div>
+    </div> <!-- s-resume__section -->
+
+    </section> <!-- end s-resume -->
+
+
+    <!-- about
+================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row">
+            <div class="column large-3 tab-12">
+                <img class="s-about__pic" src="images/avatars/avatar.png" alt="">
+            </div>
+            <div class="column large-9 tab-12 s-about__content">
+                <h3>About Me</h3>
+                <p>
+                    I'm a unity programmer with six years of game development experience. I have worked with various clients, from arcades to visual experiences to studios. I graduated as the top graduate from the University of Wollongong, studying Bachelors of Computer Science, majoring in Multimedia and Game Development.                </p>
+                <p>
+                    Games have been a massive part of my life. Ever since childhood, they took me to places that brought me immense joy. A few memories I've always cherished are playing the Final Fantasy series on my GBA and Harvest Moon on the SNES ( Stardew valley as well!), to name a few.
+                </p>
+                <p>I enjoy picking up a few games to play when I'm not working. Otherwise, I'm mostly learning or working on personal projects. I'm always looking to meet with devs and talk about game development (though I can talk about it for days!). Feel free to get in touch!</p>
+            </div>
+        </div> <!-- end row -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row s-contact__header">
+            <div class="column large-12">
+                <h3 class="section-header-allcaps">Contact Me</h3>
+            </div>
+        </div>
+
+        <div class="row s-contact__content">
+
+            <div class="column large-4 medium-12">
+                <div class="row contact-infos">
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Email
+                            </h5>
+                            <p class="contact-block__content">
+                                <a class="mailtoui" href="mailto:aamir.gamedev@gmail.com">aamir.gamedev@gmail.com</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Phone
+                            </h5>
+                            <p class="contact-block__content">
+                                <a href="tel:+1975432345">+971526529454</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+
+                    <div class="column large-12">
+                        <a href="mailto:aamir.gamedev@gmail.com" class="mailtoui btn btn--primary h-full-width">Let's Talk</a>
+                    </div>
+                    <div class="column large-12">
+                        <a href="https://drive.google.com/file/d/1ZxkqGhwDIHW475TLkbUA5hvARBjPmcEb/view?usp=sharing" class="btn btn--secondary h-full-width">Download CV</a>
+                    </div>
+
+                </div> <!-- end contact-infos -->
+
+            </div>
+        </div> <!-- s-contact__content -->
+
+    </section> <!-- end s-contact -->
+    
+
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row">
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                <ul class="s-footer__social">
+                    <li><a href="https://github.com/AamirMohammed"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/aamir-mohammed"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span>© Copyright Aamir Mohammed 2022</span>
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
+             </a>
+        </div> <!-- end ss-go-top -->
+    </footer>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
