@@ -3805,7 +3805,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    --color-border: var(--color-gray-16);
+    --color-border: var(--color-gray-18);
     background-color: var(--color-gray-18);
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-4);
