@@ -4013,7 +4013,9 @@ input[type="button"].btn--primary:focus {
     margin-top: var(--vspace-0_125);
 }
 
-
+* {
+    scroll-behavior: smooth;
+}
 
 .folio-item__thumb {
     display: block;
