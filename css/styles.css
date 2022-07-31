@@ -3806,7 +3806,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-about {
     --color-border: var(--color-gray-16);
-    background-color: var(--color-gray-17);
+    background-color: var(--color-gray-18);
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-4);
     color: rgba(255, 255, 255, 0.4);
@@ -4444,7 +4444,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-gray-18);
+    background-color: var(--color-gray-19);
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-3_5);
 }
