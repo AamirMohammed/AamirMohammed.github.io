@@ -3807,7 +3807,7 @@ input[type="button"].btn--primary:focus {
 .s-about {
     --color-border: var(--color-gray-18);
     background-color: var(--color-gray-18);
-    padding-top: calc(6 * var(--space));
+    padding-top: calc(4 * var(--space));
     padding-bottom: var(--vspace-4);
     color: rgba(255, 255, 255, 0.4);
 }
@@ -3912,8 +3912,8 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-resume {
     background-color: var(--color-gray-17);
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
+    padding-top: calc(2 * var(--space));
+    padding-bottom: var(--vspace-0_125);
 }
 
 .s-resume__section {
@@ -3991,7 +3991,7 @@ input[type="button"].btn--primary:focus {
 .s-portfolio {
     background-color: var(--color-gray-18);
     padding-top: calc(4 * var(--space));
-    padding-bottom: var(--vspace-5);
+    padding-bottom: var(--vspace-4);
 }
 
 .s-portfolio h3 {
@@ -4445,8 +4445,8 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: var(--color-gray-19);
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-3_5);
+    padding-top: calc(4 * var(--space));
+    padding-bottom: var(--vspace-1_5);
 }
 
 .s-contact .section-header-allcaps {
