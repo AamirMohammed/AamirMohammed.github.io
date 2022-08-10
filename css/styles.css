@@ -4105,6 +4105,7 @@ input[type="button"].btn--primary:focus {
     line-height: 1.647;
     overflow-y: auto;
     position: relative;
+    display: flex;
 }
 
 .container {
@@ -4125,14 +4126,48 @@ input[type="button"].btn--primary:focus {
 
 .modal-popup img {
     margin-bottom: var(--vspace-0_5);
+    padding:1.2rem;
+
 }
 
 .modal-popup h5 {
     margin-top: 0;
 }
 
+.fa-google-drive{
+    color: darkgreen;
+}
+
+.fa-google-drive:hover {
+    color: #fd7c24;
+    animation-play-state: paused;
+}
+
+
+.fa-youtube:hover {
+    color: #fd7c24;
+    animation-play-state: paused;
+}
+
+.fa-youtube{
+    color: #fd0001;
+}
+.fa-globe{
+    color: #ffffff;
+}
+.fa-globe:hover {
+    color: #fd7c24;
+}
+
+.fa-fw{
+    padding: 10px;
+}
+
 .modal-popup__desc {
-    padding:1.2rem;
+    padding-top: 3rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
 }
 
 .modal-popup__cat {
@@ -4174,15 +4209,15 @@ input[type="button"].btn--primary:focus {
 
 .modal-popup__details {
     background-color: rgba(0, 0, 0, 0.3);
-    font-size: var(--text-sm);
+    font-size: var(--text-lg);
     line-height: calc(var(--vspace-1_5) - 2px);
     border: 1px solid rgba(255, 255, 255, 0.15);
     color: white;
     border-radius: var(--border-radius);
     padding: 0 1.4rem;
-    position: absolute;
-    top: var(--vspace-1_25);
-    left: 4rem;
+    top: 20rem;
+    left: 8rem;
+
 }
 
 .modal-popup__details:hover,
